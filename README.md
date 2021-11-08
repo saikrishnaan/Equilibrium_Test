@@ -1,20 +1,23 @@
-# Page Object model Test automation framework using Selenium with Java, TestNG and Maven-
-This is a sample project to demonstrate what is page object model framework and how it can used in selenium to automate any application.
-TestNG is used as test framework.
+Equilibrium_Test
+Author: Sai
 
-Dependency
-Java
-Maven
+This project is created for equillibrium coding test.
 
-###libraries used
-Selenium
-TestNG
-log4j
-Extent Reports
+This is created in maven
 
-### Steps to clone execute the tests
-```
-git clone https://github.com/naveenanimation20/PageObjectModel
-cd PageObjectModel
-mvn clean test
-```
+I have used config.properties for the input data
+
+the script runs on Chrome v 95 by default..
+
+Browser Value : To change the browser update the below value in config.properties under browser key for eg.
+
+browser = chrome or browser = FF
+
+All the 5 scripts are getting passed ..chromedriver & geckodriver are shared in project directory (PageObjectModel-master\PageObjectModel-master\drivers)
+
+Prerequisites
+This project uses Maven for assembling of OSGi bundles based on artifacts in Maven Central or any other accessible Maven repository.
+
+1. Install Java (at least Java 7, Java 8 preferred) and Maven
+2. Clone this repository and go into the repository root folder.
+3. Use the command "mvn clean install"
