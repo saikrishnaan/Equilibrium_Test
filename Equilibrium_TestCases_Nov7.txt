@@ -1,0 +1,38 @@
+TestCases for https://www.saucedemo.com/
+
+Author: Sai Krishna
+Date: Nov 7 2021
+
+Verify if a user is able to login with a valid username and valid password.
+Verify that User is redirected to Products page after successful login
+Verify that the User is not able to Login with an invalid Username and invalid Password
+Verify that the User is not able to Login with a Valid Username and invalid Password
+Verify that the User is not able to log in with an invalid Username and Valid Password
+Verify the locked out error messgage while login with locked_out_user
+Verify the images displayed when logged in with problem_user
+Verify the error messages when the username & Password is left blank and Submit button is clicked.
+Verify the login takes 5 seconds delay after clicking on submit using performance_glitch username
+Verify the messages for invalid login.
+Verify if the data in password field is either visible as bulletsigns
+Verify if the login page allows to log in simultaneously with different credentials in a different browser.
+Verify that the user is able to login by entering valid credentials and pressing Enter key.
+Verify the time taken to log in with a valid username and password.
+Verify the password entered should not be displayed developer tools(Displays in Value attribute)
+Verify if the ui controls can be navigated using keystroke
+Check the font type, & size and text written is visible
+Verify the logo is diaplyed as per the specification
+Verify the UI is responsive -- It should adapt to the different screen resolutions & devices
+Verify the limit of unsuccessful login attempts
+verify the generic error message is displayed instead of "Invalid Username" or "Invalid password" to avoid security issues
+Verify the session timeout
+Verify that clicking on the browser back button after successful login should not take the User to log out mode
+Verify that clicking on the browser back button after successful logout should not take the User to a logged-in mode
+Verify SQL injections attacks on login page. 
+Verify XSS vulnerability should be blocked
+Verify the password can be copy-pasted. System shouldn’t allow users to copy paste password.
+Verify that encrypted characters in the “Password” field should not allow deciphering if copied
+Verify that the User should be able to login with the new password after changing the password
+Verify that the user should not be able to login with the old password after changing the password
+Verify that spaces should not be allowed before any password characters attempted
+Verify whether the user is still logged in after a series of actions such as sign-in, close the browser, and reopen the application.
+
